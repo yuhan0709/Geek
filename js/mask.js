@@ -1,0 +1,12 @@
+$(document).ready(function(){
+	$('.mask').hide();
+	$('.sign').hide();
+	$('.signin').click(function(){
+		$('.mask').show();
+		$('.sign').show();
+	});
+	$('.close').click(function(){
+    	$('.mask').hide();
+		$('.sign').hide();
+	});
+})
